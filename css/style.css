@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#difficolta{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main{
+    padding: 40px;
+}
+
+.box{
+    width: 900px;
+    margin: auto;
+}
+
+.d_flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% ;
+    background-color: black;
+}
+
+.square_normale{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.square_difficile{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.square_ultra_difficile{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
+.active{
+    background-color: aqua;
+    color: black;
+}
+
+.boom{
+    background-color: rgb(255, 0, 0);
+    color: black;
+}
+
+
+.selezione{
+    display: none;
+    margin-left: 46%;
+}
+
+.d_block{
+    display: block;
+}
+
+
